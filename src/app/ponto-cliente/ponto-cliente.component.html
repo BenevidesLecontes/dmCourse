@@ -1,0 +1,20 @@
+<mat-toolbar>
+  <ul class="status">
+    <li>
+      <h6 class="status-label">Saldo</h6>
+      <p class="status-value">{{ponto?.saldo |currency:'BRL':true}}</p>
+    </li>
+    <li>
+      <h6 class="status-label">Histórico</h6>
+      <p class="status-value">{{ponto?.total |currency:'BRL':true}}</p>
+    </li>
+    <li>
+      <h6 class="status-label">Utilizados</h6>
+      <p class="status-value">{{ponto?.utilizados |currency:'BRL':true}}</p>
+    </li>
+    <li>
+      <h6 class="status-label">Perdidos</h6>
+      <p class="status-value">{{ponto?.expirados |currency:'BRL':true}}</p>
+    </li>
+  </ul>
+</mat-toolbar>

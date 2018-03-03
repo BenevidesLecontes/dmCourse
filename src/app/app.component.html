@@ -8,21 +8,16 @@
         <button mat-button><i class="icon icon-search"></i></button>
       </div>
     </mat-toolbar>
-    <!-- two line list -->
-    <mat-list>
-      <mat-list-item>
-        <p matLine> wendelsantos@hotmail.com </p>
-        <h3 matLine> Benevides Lecontes </h3>
-        <p matLine>886.186.050-85</p>
-      </mat-list-item>
-    </mat-list>
-    <mat-list>
-      <mat-list-item>
-        <p matLine> wendelsantos@hotmail.com </p>
-        <h3 matLine> Wendel Santos </h3>
-        <p matLine>683.887.174-21</p>
-      </mat-list-item>
-    </mat-list>
+    
+    <!-- two line list -->    
+    <ng-container *ngFor="let cliente of clientes" >
+      <app-clientlist [cliente]="cliente" ></app-clientlist>
+      <!--
+      <button mat-button color="primary" mat-raised-button (click)="removeCliente(cliente.nome)" >Remover clientes</button>
+      -->
+    </ng-container>
+    
+    
   </aside>
 
   <main class="main">
@@ -53,26 +48,13 @@
         </a>
       </nav>
       <div class="sub-header">
-        <mat-toolbar>
-          <ul class="status">
-            <li>
-              <h6 class="status-label">Saldo</h6>
-              <p class="status-value">---</p>
-            </li>
-            <li>
-              <h6 class="status-label">Histórico</h6>
-              <p class="status-value">---</p>
-            </li>
-            <li>
-              <h6 class="status-label">Utilizados</h6>
-              <p class="status-value">---</p>
-            </li>
-            <li>
-              <h6 class="status-label">Perdidos</h6>
-              <p class="status-value">---</p>
-            </li>
-          </ul>
-        </mat-toolbar>
+        
+      <ng-container *ngFor="let ponto of pontos" >
+        <app-ponto-cliente [ponto]="ponto"></app-ponto-cliente>
+      </ng-container>
+
+        <button mat-button color="primary" mat-raised-button (click)="addCliente()" >Adicionar clientes</button>        
+
       </div>
       <section class="demo-tab-content">
         <router-outlet></router-outlet>
