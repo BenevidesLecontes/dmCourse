@@ -3,8 +3,8 @@
     <h4>Adicionar nota</h4>
     <div fxLayout="row">
       <mat-form-field>
-        <mat-label>Loja</mat-label>
-        <input matInput required placeholder="Razão social, nome fantasia ou CNPJ">
+        <input matInput placeholder="Enter your email" [formControl]="email" required>
+        <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
       </mat-form-field>
     </div>
     <div fxLayout="row" fxLayoutGap="15px">

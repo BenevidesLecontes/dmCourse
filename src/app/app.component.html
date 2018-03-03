@@ -2,15 +2,19 @@
   <aside class="nav">
     <mat-toolbar>
       <div class="search-container">
-        <label for="input-search">
-          <input type="text" id="input-search" placeholder="Buscar por nome, código ou email" class="input-lg">
-        </label>
-        <button mat-button><i class="icon icon-search"></i></button>
+        <form [formGroup]="formularioBusca" (ngSubmit)="subimitted()">
+          <label for="input-search">
+            <input type="text" id="input-search" [formControlName]="'busca'"
+                   placeholder="Buscar por nome, código ou email"
+                   class="input-lg">
+          </label>
+          <button mat-button><i class="icon icon-search"></i></button>
+        </form>
       </div>
     </mat-toolbar>
     <!-- two line list -->
-    <ng-container *ngFor="let cliente of clientes">
-      <app-clientlist [cliente]="cliente"></app-clientlist>
+    <ng-container *ngFor="let cliente of clientes | filtrobusca: busca : 'nome'">
+      <app-clientlist [first]="i === 0" [cliente]="cliente"></app-clientlist>
     </ng-container>
   </aside>
 

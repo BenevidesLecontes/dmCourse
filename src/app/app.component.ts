@@ -1,12 +1,14 @@
 import {AfterViewInit, Component, OnDestroy, OnInit, ViewChild} from '@angular/core';
 import {ClientlistComponent} from './clientlist/clientlist.component';
 import {ClientesService} from './clientes.service';
-import {filter, take} from 'rxjs/operators';
+import {debounceTime, filter, take} from 'rxjs/operators';
+import {FormBuilder, FormControl, FormGroup} from '@angular/forms';
 
 export interface ICliente {
   email?: string;
   nome: string;
   cpf?: string;
+  nascimento?: string;
 }
 
 @Component({
@@ -24,12 +26,19 @@ export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
     'Perdidos'
   ];
   mapLabels = {};
+  busca: string;
+  nome: string;
+  data: string;
+  formularioBusca: FormGroup;
 
-  constructor(private clientesService: ClientesService) {
+  constructor(private clientesService: ClientesService, private fb: FormBuilder) {
   }
 
   ngOnInit(): void {
     this.getData();
+    this.formularioBusca = this.fb.group({
+      busca: new FormControl(null)
+    });
   }
 
   ngAfterViewInit(): void {
@@ -60,5 +69,11 @@ export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
+  }
+
+  subimitted() {
+    this.clientesService.buscarClientes(this.formularioBusca.value.busca).subscribe(response => {
+      this.clientes = response;
+    });
   }
 }

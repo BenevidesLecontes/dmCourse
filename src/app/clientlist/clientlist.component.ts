@@ -7,6 +7,8 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class ClientlistComponent implements OnInit {
   @Input() cliente: any;
+  @Input() first: boolean;
+  classes = ['red', 'italico'];
   constructor() { }
 
   ngOnInit() {
