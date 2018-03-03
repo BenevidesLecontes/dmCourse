@@ -9,20 +9,9 @@
       </div>
     </mat-toolbar>
     <!-- two line list -->
-    <mat-list>
-      <mat-list-item>
-        <p matLine> wendelsantos@hotmail.com </p>
-        <h3 matLine> Benevides Lecontes </h3>
-        <p matLine>886.186.050-85</p>
-      </mat-list-item>
-    </mat-list>
-    <mat-list>
-      <mat-list-item>
-        <p matLine> wendelsantos@hotmail.com </p>
-        <h3 matLine> Wendel Santos </h3>
-        <p matLine>683.887.174-21</p>
-      </mat-list-item>
-    </mat-list>
+    <ng-container *ngFor="let cliente of clientes">
+      <app-clientlist [cliente]="cliente"></app-clientlist>
+    </ng-container>
   </aside>
 
   <main class="main">
@@ -55,21 +44,8 @@
       <div class="sub-header">
         <mat-toolbar>
           <ul class="status">
-            <li>
-              <h6 class="status-label">Saldo</h6>
-              <p class="status-value">---</p>
-            </li>
-            <li>
-              <h6 class="status-label">Histórico</h6>
-              <p class="status-value">---</p>
-            </li>
-            <li>
-              <h6 class="status-label">Utilizados</h6>
-              <p class="status-value">---</p>
-            </li>
-            <li>
-              <h6 class="status-label">Perdidos</h6>
-              <p class="status-value">---</p>
+            <li *ngFor="let label of labels">
+              <app-status-item [statusLabel]="label" [valor]="mapLabels[label]"></app-status-item>
             </li>
           </ul>
         </mat-toolbar>
