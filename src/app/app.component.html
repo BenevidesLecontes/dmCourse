@@ -8,6 +8,7 @@
         <button mat-button><i class="icon icon-search"></i></button>
       </div>
     </mat-toolbar>
+<<<<<<< HEAD
     
     <!-- two line list -->    
     <ng-container *ngFor="let cliente of clientes" >
@@ -18,6 +19,12 @@
     </ng-container>
     
     
+=======
+    <!-- two line list -->
+    <ng-container *ngFor="let cliente of clientes">
+      <app-clientlist [cliente]="cliente"></app-clientlist>
+    </ng-container>
+>>>>>>> origin/master
   </aside>
 
   <main class="main">
@@ -48,6 +55,7 @@
         </a>
       </nav>
       <div class="sub-header">
+<<<<<<< HEAD
         
       <ng-container *ngFor="let ponto of pontos" >
         <app-ponto-cliente [ponto]="ponto"></app-ponto-cliente>
@@ -55,6 +63,15 @@
 
         <button mat-button color="primary" mat-raised-button (click)="addCliente()" >Adicionar clientes</button>        
 
+=======
+        <mat-toolbar>
+          <ul class="status">
+            <li *ngFor="let label of labels">
+              <app-status-item [statusLabel]="label" [valor]="mapLabels[label]"></app-status-item>
+            </li>
+          </ul>
+        </mat-toolbar>
+>>>>>>> origin/master
       </div>
       <section class="demo-tab-content">
         <router-outlet></router-outlet>
