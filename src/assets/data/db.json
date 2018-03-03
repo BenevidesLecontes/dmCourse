@@ -39,7 +39,7 @@
   ],
   "pontos": {
     "total": 189247.73,
-    "utilizados": 109000,
-    "expirados": 78000
+    "utilizados": 109000.0,
+    "expirados": 78000.0
   }
 }

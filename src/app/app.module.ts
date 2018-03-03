@@ -1,5 +1,5 @@
 import {BrowserModule} from '@angular/platform-browser';
-import {CUSTOM_ELEMENTS_SCHEMA, NgModule} from '@angular/core';
+import {CUSTOM_ELEMENTS_SCHEMA, NgModule, LOCALE_ID} from '@angular/core';
 
 
 import {AppComponent} from './app.component';
@@ -11,6 +11,15 @@ import {Route, RouterModule} from '@angular/router';
 import {TransacoesComponent} from './transacoes/transacoes.component';
 import {BeneficiosComponent} from './beneficios/beneficios.component';
 import {HistoricoComponent} from './historico/historico.component';
+import { ClientlistComponent } from './clientlist/clientlist.component';
+import { TesteComponent } from './teste/teste.component';
+import { ClientesService } from './clientes.service';
+import { DadosClienteComponent } from './dados-cliente/dados-cliente.component';
+
+import { registerLocaleData } from '@angular/common';
+import localePt from '@angular/common/locales/pt';
+
+registerLocaleData(localePt, 'pt');
 
 const routes: Route[] = [
   {path: 'transacoes', component: TransacoesComponent},
@@ -31,7 +40,10 @@ const routes: Route[] = [
     AppComponent,
     TransacoesComponent,
     BeneficiosComponent,
-    HistoricoComponent
+    HistoricoComponent,
+    ClientlistComponent,
+    TesteComponent,
+    DadosClienteComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +54,9 @@ const routes: Route[] = [
     ReactiveFormsModule,
     MaterialModule
   ],
-  providers: [],
+  providers: [ClientesService, 
+    {provide: LOCALE_ID, useValue : 'pt'}
+  ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent]
 })

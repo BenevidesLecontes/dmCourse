@@ -9,20 +9,9 @@
       </div>
     </mat-toolbar>
     <!-- two line list -->
-    <mat-list>
-      <mat-list-item>
-        <p matLine> wendelsantos@hotmail.com </p>
-        <h3 matLine> Benevides Lecontes </h3>
-        <p matLine>886.186.050-85</p>
-      </mat-list-item>
-    </mat-list>
-    <mat-list>
-      <mat-list-item>
-        <p matLine> wendelsantos@hotmail.com </p>
-        <h3 matLine> Wendel Santos </h3>
-        <p matLine>683.887.174-21</p>
-      </mat-list-item>
-    </mat-list>
+    <ng-container *ngFor="let cliente of clientes"> 
+        <app-clientlist [cliente]="cliente"></app-clientlist>
+    </ng-container>
   </aside>
 
   <main class="main">
@@ -54,25 +43,10 @@
       </nav>
       <div class="sub-header">
         <mat-toolbar>
-          <ul class="status">
-            <li>
-              <h6 class="status-label">Saldo</h6>
-              <p class="status-value">---</p>
-            </li>
-            <li>
-              <h6 class="status-label">Histórico</h6>
-              <p class="status-value">---</p>
-            </li>
-            <li>
-              <h6 class="status-label">Utilizados</h6>
-              <p class="status-value">---</p>
-            </li>
-            <li>
-              <h6 class="status-label">Perdidos</h6>
-              <p class="status-value">---</p>
-            </li>
-          </ul>
+            <app-dados-cliente [dadosCliente]="dadosCliente"></app-dados-cliente>
         </mat-toolbar>
+        <button mat-button color="primary" mat-raised-button (click)="addCliente()">Adicionar Cliente</button>
+        <!-- app-teste [clientes]="clientes" (removeClienteEvento)="clientes.splice($event, 1)" [clienteComponent]="clienteC" > </app-teste -->
       </div>
       <section class="demo-tab-content">
         <router-outlet></router-outlet>
