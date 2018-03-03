@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { Component, OnInit, Input } from '@angular/core';
+=======
+import {Component, Input, OnInit} from '@angular/core';
+>>>>>>> origin/master
 
 @Component({
   selector: 'app-clientlist',
@@ -7,7 +11,10 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ClientlistComponent implements OnInit {
   @Input() cliente: any;
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
   constructor() { }
 
   ngOnInit() {

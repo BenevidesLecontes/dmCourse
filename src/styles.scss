@@ -126,16 +126,19 @@ header, .sub-header {
       max-height: 100%;
       padding: 0 15px;
       margin: 0;
-      display: inline-block;
+      display: flex;
       li {
         padding: 0;
         margin: 0;
         min-width: 120px;
-        display: inline-block;
+        display: inline-flex;
+        height: 60px;
+        align-items: center;
         p, h6 {
           padding: 0;
           margin: 0;
           width: 100%;
+          line-height: normal;
         }
         .status-label {
           color: #999;
