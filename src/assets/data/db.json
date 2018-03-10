@@ -4,24 +4,28 @@
       "id": 1,
       "nome": "Paulo Santos de Almeida",
       "email": "paulo.santos@email.com",
+      "telefone": "9595959595",
       "cpf": "02341233409"
     },
     {
       "id": 2,
       "nome": "Antonio Marques da Silva",
       "email": "tonhomsilva@email.com",
+      "telefone": "21959595959",
       "cpf": "23456789012"
     },
     {
       "id": 3,
       "nome": "João Sousa Siqueira",
       "email": "jaosiq@email.com",
+      "telefone": "21959595959",
       "cpf": "34567890123"
     },
     {
       "id": 4,
       "nome": "Armando Jogada",
       "email": "armando.player@gmail.com",
+      "telefone": "54221559595959",
       "cpf": "45678901234"
     },
     {

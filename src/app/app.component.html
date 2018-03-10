@@ -2,20 +2,19 @@
   <aside class="nav">
     <mat-toolbar>
       <div class="search-container">
-        <label for="input-search">
-          <input type="text" id="input-search" placeholder="Buscar por nome, código ou email" class="input-lg">
-        </label>
-        <button mat-button><i class="icon icon-search"></i></button>
+
+        <form [formGroup]="formularioBusca" (ngSubmit)="submitted()">
+            <label for="input-search">
+                <input type="text" id="input-search" [formControlName]="'busca'"
+                    placeholder="Buscar por nome, código ou email" class="input-lg">
+              </label>
+              <button mat-button><i class="icon icon-search"></i></button>
+        </form> 
       </div>
     </mat-toolbar>
     <!-- two line list -->
-<<<<<<< HEAD
     <ng-container *ngFor="let cliente of clientes"> 
         <app-clientlist [cliente]="cliente"></app-clientlist>
-=======
-    <ng-container *ngFor="let cliente of clientes">
-      <app-clientlist [cliente]="cliente"></app-clientlist>
->>>>>>> origin/master
     </ng-container>
   </aside>
 
@@ -48,18 +47,12 @@
       </nav>
       <div class="sub-header">
         <mat-toolbar>
-<<<<<<< HEAD
             <app-dados-cliente [dadosCliente]="dadosCliente"></app-dados-cliente>
-=======
-          <ul class="status">
-            <li *ngFor="let label of labels">
-              <app-status-item [statusLabel]="label" [valor]="mapLabels[label]"></app-status-item>
-            </li>
-          </ul>
->>>>>>> origin/master
         </mat-toolbar>
         <button mat-button color="primary" mat-raised-button (click)="addCliente()">Adicionar Cliente</button>
         <!-- app-teste [clientes]="clientes" (removeClienteEvento)="clientes.splice($event, 1)" [clienteComponent]="clienteC" > </app-teste -->
+        <input type="text" maxlength="10" [hora]="horaInput.value" appFormatadata/>
+        <input #horaInput/>
       </div>
       <section class="demo-tab-content">
         <router-outlet></router-outlet>
