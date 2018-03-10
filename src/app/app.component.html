@@ -1,17 +1,17 @@
 <div class="custom-container">
   <aside class="nav">
-    <mat-toolbar>
-      <div class="search-container">
-        <form [formGroup]="formularioBusca" (ngSubmit)="subimitted()">
+    <form [formGroup]="formularioBusca" (ngSubmit)="subimitted()">
+      <mat-toolbar>
+        <div class="search-container">
           <label for="input-search">
             <input type="text" id="input-search" [formControlName]="'busca'"
                    placeholder="Buscar por nome, código ou email"
                    class="input-lg">
           </label>
           <button mat-button><i class="icon icon-search"></i></button>
-        </form>
-      </div>
-    </mat-toolbar>
+        </div>
+      </mat-toolbar>
+    </form>
     <!-- two line list -->
     <ng-container *ngFor="let cliente of clientes | filtrobusca: busca : 'nome'">
       <app-clientlist [first]="i === 0" [cliente]="cliente"></app-clientlist>

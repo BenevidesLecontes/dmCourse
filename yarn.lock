@@ -27,27 +27,27 @@
     "@ngtools/json-schema" "^1.1.0"
     rxjs "^5.5.6"
 
-"@angular/animations@^5.2.7":
-  version "5.2.7"
-  resolved "https://registry.npmjs.org/@angular/animations/-/animations-5.2.7.tgz#a99fe128f3809e3f8082441a6e676992b9352db7"
+"@angular/animations@^5.2.8":
+  version "5.2.8"
+  resolved "https://registry.npmjs.org/@angular/animations/-/animations-5.2.8.tgz#31cdb49163881323fa5ded41e89683ec5e9ac8b5"
   dependencies:
     tslib "^1.7.1"
 
-"@angular/cdk@^5.2.3":
-  version "5.2.3"
-  resolved "https://registry.npmjs.org/@angular/cdk/-/cdk-5.2.3.tgz#b52e7040e1e6577b593b5d974b80020c1f5babe3"
+"@angular/cdk@^5.2.4":
+  version "5.2.4"
+  resolved "https://registry.npmjs.org/@angular/cdk/-/cdk-5.2.4.tgz#c0a429a8710d8fedb157f546e21cb49d4335f7f7"
   dependencies:
     tslib "^1.7.1"
 
-"@angular/cli@1.7.2":
-  version "1.7.2"
-  resolved "https://registry.npmjs.org/@angular/cli/-/cli-1.7.2.tgz#7539285cb83f33cc1b34aec47a5ef6e8656c8450"
+"@angular/cli@1.7.3":
+  version "1.7.3"
+  resolved "https://registry.npmjs.org/@angular/cli/-/cli-1.7.3.tgz#ac917b69240bb1b340421e9f985135890e0d53b4"
   dependencies:
     "@angular-devkit/build-optimizer" "0.3.2"
     "@angular-devkit/core" "0.3.2"
     "@angular-devkit/schematics" "0.3.2"
     "@ngtools/json-schema" "1.2.0"
-    "@ngtools/webpack" "1.10.1"
+    "@ngtools/webpack" "1.10.2"
     "@schematics/angular" "0.3.2"
     "@schematics/package-update" "0.3.2"
     ajv "^6.1.1"
@@ -55,7 +55,7 @@
     cache-loader "^1.2.0"
     chalk "~2.2.0"
     circular-dependency-plugin "^4.2.1"
-    clean-css "^4.1.9"
+    clean-css "^4.1.11"
     common-tags "^1.3.1"
     copy-webpack-plugin "~4.4.1"
     core-object "^3.1.0"
@@ -104,30 +104,30 @@
   optionalDependencies:
     node-sass "^4.7.2"
 
-"@angular/common@^5.2.7":
-  version "5.2.7"
-  resolved "https://registry.npmjs.org/@angular/common/-/common-5.2.7.tgz#11bb9f00afe91af8d772ecdff83c2e179f9a67a0"
+"@angular/common@^5.2.8":
+  version "5.2.8"
+  resolved "https://registry.npmjs.org/@angular/common/-/common-5.2.8.tgz#25c81609305e4cee6734d90c8ff1132ab35f81bf"
   dependencies:
     tslib "^1.7.1"
 
-"@angular/compiler-cli@^5.2.7":
-  version "5.2.7"
-  resolved "https://registry.npmjs.org/@angular/compiler-cli/-/compiler-cli-5.2.7.tgz#3bad9d5e4c25ebc51e1bb67b71b26a97d6d3bbc5"
+"@angular/compiler-cli@^5.2.8":
+  version "5.2.8"
+  resolved "https://registry.npmjs.org/@angular/compiler-cli/-/compiler-cli-5.2.8.tgz#49e298dd8d5f7dde54045ff3c1acd9f3ca62e70b"
   dependencies:
     chokidar "^1.4.2"
     minimist "^1.2.0"
     reflect-metadata "^0.1.2"
     tsickle "^0.27.2"
 
-"@angular/compiler@^5.2.7":
-  version "5.2.7"
-  resolved "https://registry.npmjs.org/@angular/compiler/-/compiler-5.2.7.tgz#31dcc7ac18cc23cb115e76c541b982737ff93ec9"
+"@angular/compiler@^5.2.8":
+  version "5.2.8"
+  resolved "https://registry.npmjs.org/@angular/compiler/-/compiler-5.2.8.tgz#534315d0c700d57c2eb7cc7fff4f180213c8633f"
   dependencies:
     tslib "^1.7.1"
 
-"@angular/core@^5.2.7":
-  version "5.2.7"
-  resolved "https://registry.npmjs.org/@angular/core/-/core-5.2.7.tgz#e5607fc39d90f9fe4fbaaeeeb6cdb9371966bfe3"
+"@angular/core@^5.2.8":
+  version "5.2.8"
+  resolved "https://registry.npmjs.org/@angular/core/-/core-5.2.8.tgz#d2e7657f2c5ce7f050e8f438dcc420c9bebca10a"
   dependencies:
     tslib "^1.7.1"
 
@@ -137,43 +137,43 @@
   dependencies:
     tslib "^1.7.1"
 
-"@angular/forms@^5.2.7":
-  version "5.2.7"
-  resolved "https://registry.npmjs.org/@angular/forms/-/forms-5.2.7.tgz#a0c41fdb6b8ba2c32653cc3058d5fa47db91fbf8"
+"@angular/forms@^5.2.8":
+  version "5.2.8"
+  resolved "https://registry.npmjs.org/@angular/forms/-/forms-5.2.8.tgz#eda3c0ee2cb085581bb9bf8ac3c7b463b082b643"
   dependencies:
     tslib "^1.7.1"
 
-"@angular/http@^5.2.7":
-  version "5.2.7"
-  resolved "https://registry.npmjs.org/@angular/http/-/http-5.2.7.tgz#a163f6958f12d2665419123861b0d613c1c82afb"
+"@angular/http@^5.2.8":
+  version "5.2.8"
+  resolved "https://registry.npmjs.org/@angular/http/-/http-5.2.8.tgz#be51315032515f8699f8b810ebf3ca78c0cc3759"
   dependencies:
     tslib "^1.7.1"
 
-"@angular/language-service@^5.2.7":
-  version "5.2.7"
-  resolved "https://registry.npmjs.org/@angular/language-service/-/language-service-5.2.7.tgz#065fc0d3f8d58b3439e1bafc10c85420e4391756"
+"@angular/language-service@^5.2.8":
+  version "5.2.8"
+  resolved "https://registry.npmjs.org/@angular/language-service/-/language-service-5.2.8.tgz#9dcc809ac4595e8b740971cf7f68a507ed5e4ff4"
 
-"@angular/material@^5.2.3":
-  version "5.2.3"
-  resolved "https://registry.npmjs.org/@angular/material/-/material-5.2.3.tgz#ce7e2abb79c0bd16dff7f247b21c5339d02dd949"
+"@angular/material@^5.2.4":
+  version "5.2.4"
+  resolved "https://registry.npmjs.org/@angular/material/-/material-5.2.4.tgz#9e823798324283d23ea839156fac5bcb73443d55"
   dependencies:
     tslib "^1.7.1"
 
-"@angular/platform-browser-dynamic@^5.2.7":
-  version "5.2.7"
-  resolved "https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-5.2.7.tgz#91f903c1f73de2fba1004bc31ed1c3117c7f0406"
+"@angular/platform-browser-dynamic@^5.2.8":
+  version "5.2.8"
+  resolved "https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-5.2.8.tgz#f2a620694ad771bf466d2bd752ca3a657ea7d46c"
   dependencies:
     tslib "^1.7.1"
 
-"@angular/platform-browser@^5.2.7":
-  version "5.2.7"
-  resolved "https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-5.2.7.tgz#cfd86040c25380aabf0322ef47aecc61f23cc532"
+"@angular/platform-browser@^5.2.8":
+  version "5.2.8"
+  resolved "https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-5.2.8.tgz#253264887429ad71057882bcbc5cfda1fa4bbc06"
   dependencies:
     tslib "^1.7.1"
 
-"@angular/router@^5.2.7":
-  version "5.2.7"
-  resolved "https://registry.npmjs.org/@angular/router/-/router-5.2.7.tgz#691c375fe32f01bea56d169469ad8f254b136af9"
+"@angular/router@^5.2.8":
+  version "5.2.8"
+  resolved "https://registry.npmjs.org/@angular/router/-/router-5.2.8.tgz#10e906803e5e71d42d157b0ccd78e773d1e316fc"
   dependencies:
     tslib "^1.7.1"
 
@@ -185,9 +185,9 @@
   version "1.1.0"
   resolved "https://registry.npmjs.org/@ngtools/json-schema/-/json-schema-1.1.0.tgz#c3a0c544d62392acc2813a42c8a0dc6f58f86922"
 
-"@ngtools/webpack@1.10.1":
-  version "1.10.1"
-  resolved "https://registry.npmjs.org/@ngtools/webpack/-/webpack-1.10.1.tgz#0af9de19a9716ce0247b6aad83ba9c5702766a03"
+"@ngtools/webpack@1.10.2":
+  version "1.10.2"
+  resolved "https://registry.npmjs.org/@ngtools/webpack/-/webpack-1.10.2.tgz#373705fd19992b36e996203480b1d412e942c8d6"
   dependencies:
     chalk "~2.2.0"
     enhanced-resolve "^3.1.0"
@@ -212,19 +212,23 @@
     semver "^5.3.0"
     semver-intersect "^1.1.2"
 
-"@types/jasmine@*", "@types/jasmine@~2.8.3":
+"@types/jasmine@*", "@types/jasmine@~2.8.6":
   version "2.8.6"
   resolved "https://registry.npmjs.org/@types/jasmine/-/jasmine-2.8.6.tgz#14445b6a1613cf4e05dd61c3c3256d0e95c0421e"
 
-"@types/jasminewd2@~2.0.2":
+"@types/jasminewd2@~2.0.3":
   version "2.0.3"
   resolved "https://registry.npmjs.org/@types/jasminewd2/-/jasminewd2-2.0.3.tgz#0d2886b0cbdae4c0eeba55e30792f584bf040a95"
   dependencies:
     "@types/jasmine" "*"
 
-"@types/node@^6.0.46", "@types/node@~6.0.60":
+"@types/node@^6.0.46":
   version "6.0.96"
   resolved "https://registry.npmjs.org/@types/node/-/node-6.0.96.tgz#7bf0bf40d6ce51e93762cc47d010c8cc5ebb2179"
+
+"@types/node@~9.4.7":
+  version "9.4.7"
+  resolved "https://registry.npmjs.org/@types/node/-/node-9.4.7.tgz#57d81cd98719df2c9de118f2d5f3b1120dcd7275"
 
 "@types/q@^0.0.32":
   version "0.0.32"
@@ -233,14 +237,6 @@
 "@types/selenium-webdriver@^2.53.35", "@types/selenium-webdriver@~2.53.39":
   version "2.53.43"
   resolved "https://registry.npmjs.org/@types/selenium-webdriver/-/selenium-webdriver-2.53.43.tgz#2de3d718819bc20165754c4a59afb7e9833f6707"
-
-"@types/strip-bom@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/@types/strip-bom/-/strip-bom-3.0.0.tgz#14a8ec3956c2e81edb7520790aecf21c290aebd2"
-
-"@types/strip-json-comments@0.0.30":
-  version "0.0.30"
-  resolved "https://registry.npmjs.org/@types/strip-json-comments/-/strip-json-comments-0.0.30.tgz#9aa30c04db212a9a0649d6ae6fd50accc40748a1"
 
 JSONStream@^1.0.3:
   version "1.3.2"
@@ -770,9 +766,9 @@ block-stream@*:
   dependencies:
     inherits "~2.0.0"
 
-blocking-proxy@0.0.5:
-  version "0.0.5"
-  resolved "https://registry.npmjs.org/blocking-proxy/-/blocking-proxy-0.0.5.tgz#462905e0dcfbea970f41aa37223dda9c07b1912b"
+blocking-proxy@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/blocking-proxy/-/blocking-proxy-1.0.1.tgz#81d6fd1fe13a4c0d6957df7f91b75e98dac40cb2"
   dependencies:
     minimist "^1.2.0"
 
@@ -1260,9 +1256,15 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-clean-css@4.1.x, clean-css@^4.1.9:
+clean-css@4.1.x:
   version "4.1.9"
   resolved "https://registry.npmjs.org/clean-css/-/clean-css-4.1.9.tgz#35cee8ae7687a49b98034f70de00c4edd3826301"
+  dependencies:
+    source-map "0.5.x"
+
+clean-css@^4.1.11:
+  version "4.1.11"
+  resolved "https://registry.npmjs.org/clean-css/-/clean-css-4.1.11.tgz#2ecdf145aba38f54740f26cefd0ff3e03e125d6a"
   dependencies:
     source-map "0.5.x"
 
@@ -1319,9 +1321,9 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
-codelyzer@^4.0.1:
-  version "4.1.0"
-  resolved "https://registry.npmjs.org/codelyzer/-/codelyzer-4.1.0.tgz#3117754538d8f5ffa36dff91d340573a836cf373"
+codelyzer@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.npmjs.org/codelyzer/-/codelyzer-4.2.1.tgz#d56eaacefca7e8138aac0a630e484bdb09988544"
   dependencies:
     app-root-path "^2.0.1"
     css-selector-tokenizer "^0.7.0"
@@ -1564,6 +1566,10 @@ copy-webpack-plugin@~4.4.1:
 core-js@^2.2.0, core-js@^2.4.0, core-js@^2.5.3:
   version "2.5.3"
   resolved "https://registry.npmjs.org/core-js/-/core-js-2.5.3.tgz#8acc38345824f16d8365b7c9b4259168e8ed603e"
+
+core-js@~2.3.0:
+  version "2.3.0"
+  resolved "https://registry.npmjs.org/core-js/-/core-js-2.3.0.tgz#fab83fbb0b2d8dc85fa636c4b9d34c75420c6d65"
 
 core-object@^3.1.0:
   version "3.1.5"
@@ -2202,6 +2208,10 @@ es6-map@^0.1.3:
     es6-set "~0.1.5"
     es6-symbol "~3.1.1"
     event-emitter "~0.3.5"
+
+es6-promise@~3.0.2:
+  version "3.0.2"
+  resolved "https://registry.npmjs.org/es6-promise/-/es6-promise-3.0.2.tgz#010d5858423a5f118979665f46486a95c6ee2bb6"
 
 es6-set@~0.1.5:
   version "0.1.5"
@@ -3087,12 +3097,6 @@ hoek@4.x.x:
   version "4.2.0"
   resolved "https://registry.npmjs.org/hoek/-/hoek-4.2.0.tgz#72d9d0754f7fe25ca2d01ad8f8f9a9449a89526d"
 
-homedir-polyfill@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/homedir-polyfill/-/homedir-polyfill-1.0.1.tgz#4c2bbc8a758998feebf5ed68580f76d46768b4bc"
-  dependencies:
-    parse-passwd "^1.0.0"
-
 hosted-git-info@^2.1.4:
   version "2.5.0"
   resolved "https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-2.5.0.tgz#6d60e34b3abbc8313062c3b798ef8d901a07af3c"
@@ -3250,6 +3254,10 @@ ignore@^3.3.5:
 image-size@~0.5.0:
   version "0.5.5"
   resolved "https://registry.npmjs.org/image-size/-/image-size-0.5.5.tgz#09dfd4ab9d20e29eb1c3e80b8990378df9e3cb9c"
+
+immediate@~3.0.5:
+  version "3.0.6"
+  resolved "https://registry.npmjs.org/immediate/-/immediate-3.0.6.tgz#9db1dbd0faf8de6fbe0f5dd5e56bb606280de69b"
 
 import-lazy@^2.1.0:
   version "2.1.0"
@@ -3720,9 +3728,9 @@ jasmine-core@~2.8.0:
   version "2.8.0"
   resolved "https://registry.npmjs.org/jasmine-core/-/jasmine-core-2.8.0.tgz#bcc979ae1f9fd05701e45e52e65d3a5d63f1a24e"
 
-jasmine-core@~2.9.0:
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/jasmine-core/-/jasmine-core-2.9.1.tgz#b6bbc1d8e65250d56f5888461705ebeeeb88f22f"
+jasmine-core@~3.1.0:
+  version "3.1.0"
+  resolved "https://registry.npmjs.org/jasmine-core/-/jasmine-core-3.1.0.tgz#a4785e135d5df65024dfc9224953df585bd2766c"
 
 jasmine-spec-reporter@~4.2.1:
   version "4.2.1"
@@ -3730,13 +3738,13 @@ jasmine-spec-reporter@~4.2.1:
   dependencies:
     colors "1.1.2"
 
-jasmine@^2.5.3:
-  version "2.9.0"
-  resolved "https://registry.npmjs.org/jasmine/-/jasmine-2.9.0.tgz#76571f925c8783409e7c6153572e5a6341cf93eb"
+jasmine@2.8.0:
+  version "2.8.0"
+  resolved "https://registry.npmjs.org/jasmine/-/jasmine-2.8.0.tgz#6b089c0a11576b1f16df11b80146d91d4e8b8a3e"
   dependencies:
     exit "^0.1.2"
     glob "^7.0.6"
-    jasmine-core "~2.9.0"
+    jasmine-core "~2.8.0"
 
 jasminewd2@^2.1.0:
   version "2.2.0"
@@ -3869,6 +3877,16 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
+jszip@^3.1.3:
+  version "3.1.5"
+  resolved "https://registry.npmjs.org/jszip/-/jszip-3.1.5.tgz#e3c2a6c6d706ac6e603314036d43cd40beefdf37"
+  dependencies:
+    core-js "~2.3.0"
+    es6-promise "~3.0.2"
+    lie "~3.1.0"
+    pako "~1.0.2"
+    readable-stream "~2.0.6"
+
 karma-chrome-launcher@~2.2.0:
   version "2.2.0"
   resolved "https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-2.2.0.tgz#cf1b9d07136cc18fe239327d24654c3dbc368acf"
@@ -3876,9 +3894,9 @@ karma-chrome-launcher@~2.2.0:
     fs-access "^1.0.0"
     which "^1.2.1"
 
-karma-coverage-istanbul-reporter@^1.2.1:
-  version "1.4.1"
-  resolved "https://registry.npmjs.org/karma-coverage-istanbul-reporter/-/karma-coverage-istanbul-reporter-1.4.1.tgz#2b42d145ddbb4868d85d52888c495a21c61d873c"
+karma-coverage-istanbul-reporter@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.npmjs.org/karma-coverage-istanbul-reporter/-/karma-coverage-istanbul-reporter-1.4.2.tgz#a8d0c8815c7d6f6cea15a394a7c4b39ef151a939"
   dependencies:
     istanbul-api "^1.1.14"
     minimatch "^3.0.4"
@@ -3889,7 +3907,7 @@ karma-jasmine-html-reporter@^0.2.2:
   dependencies:
     karma-jasmine "^1.0.2"
 
-karma-jasmine@^1.0.2, karma-jasmine@~1.1.0:
+karma-jasmine@^1.0.2, karma-jasmine@~1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/karma-jasmine/-/karma-jasmine-1.1.1.tgz#6fe840e75a11600c9d91e84b33c458e1c46a3529"
 
@@ -4051,6 +4069,12 @@ license-webpack-plugin@^1.0.0:
   resolved "https://registry.npmjs.org/license-webpack-plugin/-/license-webpack-plugin-1.1.1.tgz#76b2cedccc78f139fd7877e576f756cfc141b8c2"
   dependencies:
     ejs "^2.5.7"
+
+lie@~3.1.0:
+  version "3.1.1"
+  resolved "https://registry.npmjs.org/lie/-/lie-3.1.1.tgz#9a436b2cc7746ca59de7a41fa469b3efb76bd87e"
+  dependencies:
+    immediate "~3.0.5"
 
 load-json-file@^1.0.0:
   version "1.1.0"
@@ -4962,7 +4986,7 @@ package-json@^4.0.0:
     registry-url "^3.0.3"
     semver "^5.1.0"
 
-pako@~1.0.5:
+pako@~1.0.2, pako@~1.0.5:
   version "1.0.6"
   resolved "https://registry.npmjs.org/pako/-/pako-1.0.6.tgz#0101211baa70c4bca4a0f63f2206e97b7dfaf258"
 
@@ -5010,10 +5034,6 @@ parse-json@^2.2.0:
   resolved "https://registry.npmjs.org/parse-json/-/parse-json-2.2.0.tgz#f480f40434ef80741f8469099f8dea18f55a4dc9"
   dependencies:
     error-ex "^1.2.0"
-
-parse-passwd@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/parse-passwd/-/parse-passwd-1.0.0.tgz#6d5b934a456993b23d37f40a382d6f1666a8e5c6"
 
 parseqs@0.0.5:
   version "0.0.5"
@@ -5271,22 +5291,22 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-protractor@~5.1.2:
-  version "5.1.2"
-  resolved "https://registry.npmjs.org/protractor/-/protractor-5.1.2.tgz#9b221741709a4c62d5cd53c6aadd54a71137e95f"
+protractor@~5.3.0:
+  version "5.3.0"
+  resolved "https://registry.npmjs.org/protractor/-/protractor-5.3.0.tgz#5df98201cbdaeb50826af6d05630ef1945bf9c32"
   dependencies:
     "@types/node" "^6.0.46"
     "@types/q" "^0.0.32"
     "@types/selenium-webdriver" "~2.53.39"
-    blocking-proxy "0.0.5"
+    blocking-proxy "^1.0.0"
     chalk "^1.1.3"
     glob "^7.0.3"
-    jasmine "^2.5.3"
+    jasmine "2.8.0"
     jasminewd2 "^2.1.0"
     optimist "~0.6.0"
     q "1.4.1"
     saucelabs "~1.3.0"
-    selenium-webdriver "3.0.1"
+    selenium-webdriver "3.6.0"
     source-map-support "~0.4.0"
     webdriver-js-extender "^1.0.0"
     webdriver-manager "^12.0.6"
@@ -5530,7 +5550,7 @@ readable-stream@1.1.x, "readable-stream@1.x >=1.1.9":
     isarray "0.0.1"
     string_decoder "~0.10.x"
 
-readable-stream@~2.0.0, readable-stream@~2.0.5:
+readable-stream@~2.0.0, readable-stream@~2.0.5, readable-stream@~2.0.6:
   version "2.0.6"
   resolved "https://registry.npmjs.org/readable-stream/-/readable-stream-2.0.6.tgz#8f90341e68a53ccc928788dacfcd11b36eb9b78e"
   dependencies:
@@ -5914,11 +5934,11 @@ select-hose@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/select-hose/-/select-hose-2.0.0.tgz#625d8658f865af43ec962bfc376a37359a4994ca"
 
-selenium-webdriver@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.npmjs.org/selenium-webdriver/-/selenium-webdriver-3.0.1.tgz#a2dea5da4a97f6672e89e7ca7276cefa365147a7"
+selenium-webdriver@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.npmjs.org/selenium-webdriver/-/selenium-webdriver-3.6.0.tgz#2ba87a1662c020b8988c981ae62cb2a01298eafc"
   dependencies:
-    adm-zip "^0.4.7"
+    jszip "^3.1.3"
     rimraf "^2.5.4"
     tmp "0.0.30"
     xml2js "^0.4.17"
@@ -6277,7 +6297,7 @@ source-map-support@^0.4.1, source-map-support@~0.4.0:
   dependencies:
     source-map "^0.5.6"
 
-source-map-support@^0.5.0:
+source-map-support@^0.5.0, source-map-support@^0.5.3:
   version "0.5.3"
   resolved "https://registry.npmjs.org/source-map-support/-/source-map-support-0.5.3.tgz#2b3d5fff298cfa4d1afd7d4352d569e9a0158e76"
   dependencies:
@@ -6517,7 +6537,7 @@ strip-indent@^1.0.1:
   dependencies:
     get-stdin "^4.0.1"
 
-strip-json-comments@^2.0.0, strip-json-comments@~2.0.1:
+strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
 
@@ -6742,9 +6762,9 @@ trim-right@^1.0.1:
   dependencies:
     glob "^6.0.4"
 
-ts-node@~4.1.0:
-  version "4.1.0"
-  resolved "https://registry.npmjs.org/ts-node/-/ts-node-4.1.0.tgz#36d9529c7b90bb993306c408cd07f7743de20712"
+ts-node@~5.0.1:
+  version "5.0.1"
+  resolved "https://registry.npmjs.org/ts-node/-/ts-node-5.0.1.tgz#78e5d1cb3f704de1b641e43b76be2d4094f06f81"
   dependencies:
     arrify "^1.0.0"
     chalk "^2.3.0"
@@ -6752,19 +6772,8 @@ ts-node@~4.1.0:
     make-error "^1.1.1"
     minimist "^1.2.0"
     mkdirp "^0.5.1"
-    source-map-support "^0.5.0"
-    tsconfig "^7.0.0"
-    v8flags "^3.0.0"
+    source-map-support "^0.5.3"
     yn "^2.0.0"
-
-tsconfig@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.npmjs.org/tsconfig/-/tsconfig-7.0.0.tgz#84538875a4dc216e5c4a5432b3a4dec3d54e91b7"
-  dependencies:
-    "@types/strip-bom" "^3.0.0"
-    "@types/strip-json-comments" "0.0.30"
-    strip-bom "^3.0.0"
-    strip-json-comments "^2.0.0"
 
 tsickle@^0.27.2:
   version "0.27.2"
@@ -6845,13 +6854,13 @@ typedarray@^0.0.6, typedarray@~0.0.5:
   version "0.0.6"
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-typescript@~2.5.3:
-  version "2.5.3"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-2.5.3.tgz#df3dcdc38f3beb800d4bc322646b04a3f6ca7f0d"
-
 typescript@~2.6.2:
   version "2.6.2"
   resolved "https://registry.npmjs.org/typescript/-/typescript-2.6.2.tgz#3c5b6fd7f6de0914269027f03c0946758f7673a4"
+
+typescript@~2.7.2:
+  version "2.7.2"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-2.7.2.tgz#2d615a1ef4aee4f574425cdff7026edf81919836"
 
 uglify-es@^3.3.4:
   version "3.3.9"
@@ -7068,12 +7077,6 @@ uuid@^3.0.0, uuid@^3.0.1, uuid@^3.1.0:
 uws@~0.14.4:
   version "0.14.5"
   resolved "https://registry.npmjs.org/uws/-/uws-0.14.5.tgz#67aaf33c46b2a587a5f6666d00f7691328f149dc"
-
-v8flags@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.npmjs.org/v8flags/-/v8flags-3.0.1.tgz#dce8fc379c17d9f2c9e9ed78d89ce00052b1b76b"
-  dependencies:
-    homedir-polyfill "^1.0.1"
 
 validate-npm-package-license@^3.0.1:
   version "3.0.1"

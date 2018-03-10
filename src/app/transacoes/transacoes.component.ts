@@ -1,8 +1,8 @@
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
-import {FormControl, Validators} from '@angular/forms';
+import {FormControl, FormGroup, Validators} from '@angular/forms';
 
 const ELEMENT_DATA: any[] = [
-  {loja: '---', nota: '---', cadastro: '---', valor: '---'}
+  {loja: '---', numNota: '---', data: '---', valor: '---'}
 ];
 
 @Component({
@@ -11,10 +11,15 @@ const ELEMENT_DATA: any[] = [
   styleUrls: ['./transacoes.component.scss']
 })
 export class TransacoesComponent implements OnInit {
-  displayedColumns = ['loja', 'nota', 'cadastro', 'valor'];
+  displayedColumns = ['loja', 'numNota', 'data', 'valor'];
   dataSource = ELEMENT_DATA;
-  email = new FormControl('', [Validators.required, Validators.email]);
-
+  formTransacoes = new FormGroup({
+    loja: new FormControl('', Validators.required),
+    numNota: new FormControl(null, Validators.required),
+    formaPagamento: new FormControl(),
+    valor: new FormControl(null, Validators.required),
+    data: new FormControl(null, Validators.required)
+  });
   @Output() emit: EventEmitter<string> = new EventEmitter<string>();
 
   constructor() {
@@ -23,9 +28,13 @@ export class TransacoesComponent implements OnInit {
   ngOnInit() {
   }
 
-  getErrorMessage() {
-    return this.email.hasError('required') ? 'You must enter a value' :
-      this.email.hasError('email') ? 'Not a valid email' :
-        '';
+  getErrorMessage(controlName: string) {
+    return this.formTransacoes.get(controlName)
+      .hasError('required') ? 'Este campo é obrigatório' : '';
+  }
+
+  submit() {
+    this.dataSource = [this.formTransacoes.value];
+    this.formTransacoes.reset();
   }
 }

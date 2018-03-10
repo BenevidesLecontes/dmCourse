@@ -16,13 +16,19 @@ import {ClientesService} from './clientes.service';
 import {StatusItemComponent} from './status-item/status-item.component';
 import {registerLocaleData} from '@angular/common';
 import localePt from '@angular/common/locales/pt';
-import { CpfPipe } from './cpf.pipe';
-import { DateDirective } from './date.directive';
-import { FiltrobuscaPipe } from './filtrobusca.pipe';
+import {CpfPipe} from './cpf.pipe';
+import {DateDirective} from './date.directive';
+import {FiltrobuscaPipe} from './filtrobusca.pipe';
 
 registerLocaleData(localePt, 'pt');
 const routes: Route[] = [
   {path: 'transacoes', component: TransacoesComponent},
+  {
+    path: 'transacoes/:cliente',
+    component: TransacoesComponent,
+    children: [
+    ]
+  },
   {path: 'beneficios', component: BeneficiosComponent},
   {
     path: 'historico',
